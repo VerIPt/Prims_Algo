@@ -32,6 +32,7 @@ public class Prim_MST extends Graph<Vertex, Edge<Vertex>>{
             i = vertex.getId();
             break;
         }
+
         Vertex start = graph.getVertex(i);
         /*
          * Iterating through sorted Linked list with all edges of the Graph, checks the first vertex
